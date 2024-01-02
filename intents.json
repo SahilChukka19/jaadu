@@ -1,0 +1,127 @@
+{
+    "intents" : [
+
+        {
+            "tag" : "greetings",
+            "patterns":["hello","hii","hey","wake up","Jaadu"
+            ],
+            "responses":["Hello","How are you", "I'm Up"
+            ]
+        },
+        {
+            "tag" : "farewell",
+            "patterns":["bye","sleep","goodbye"
+            ],
+            "responses":["Goodbye","Good Bye going to sleep","Sayonara"
+            ]
+        },
+        {
+            "tag" : "health",
+            "patterns":["How are you?","How have you been","Are you good"
+            ],
+            "responses":["Cool"," I am Fine","Perfect"
+            ]
+        },
+        {
+            "tag" : "identity",
+            "patterns":["What is your name","Your name?","what are you"
+            ],
+            "responses":["I am Jaadu your favourite assistant"
+            ]
+        },
+        {
+            "tag" : "time",
+            "patterns":["What is the time","the time","tell me the time"
+            ],
+            "responses":["time"
+            ]
+        },
+        {
+            "tag" : "date",
+            "patterns":["What is the date","what is today's date","the date","date"
+            ],
+            "responses":["date"
+            ]
+        },
+        {
+            "tag" : "day",
+            "patterns":["What is the day","what is today's day","the day","day"
+            ],
+            "responses":["day"
+            ]
+        },
+        {
+            "tag" : "cursor",
+            "patterns":["open cursor","eye cursor"
+            ],
+            "responses":["cursor"
+            ]
+        },
+        {
+            "tag" : "joke",
+            "patterns":["Tell me a joke", "Say something funny","Humour me"
+            ],
+            "responses":["joke"
+            ]
+        },
+        {
+            "tag" : "wikipedia",
+            "patterns":["wikipedia"
+            ],
+            "responses":["wikipedia"
+            ]
+        },
+        {
+            "tag" : "google",
+            "patterns":["google"
+            ],
+            "responses":["google"
+            ]
+        },
+        {
+            "tag" : "email",
+            "patterns":["send an email","write an email"
+            ],
+            "responses":["email"
+            ]
+        },
+        {
+            "tag" : "play",
+            "patterns":["play"
+            ],
+            "responses":["play"
+            ]
+        },
+        {
+            "tag" : "compliments",
+            "patterns":["You are a good assistant","you are the best assistant","best assistant of all time"
+            ],
+            "responses":["Thank you","Thank you thats the best thing to hear","Thank you I am glad i was helpfull"
+            ]
+        },
+        {
+            "tag" : "criticism",
+            "patterns":["You are a bad assistant","you are the worst assistant","worst assistant of all time"
+            ],
+            "responses":["I am sorry","I am extremely sorry","Sorry I wasnt of any help to you"
+            ]
+        }
+        ,
+        {
+            "tag" : "screenshot",
+            "patterns":["take a screenshot"
+            ],
+            "responses":["screenshot"
+            ]
+        }
+
+
+
+
+    ]
+
+
+
+
+
+}
